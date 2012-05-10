@@ -1,11 +1,17 @@
 package com.appspot.clouddhbw.api;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.UriInfo;
+
 
 @Path("/files")
 public class StorageFile {
+	@Context
+    private UriInfo context;
+	
 	// File download *********************************************************
 		/*@GET
 		@Produces(MediaType.TEXT_PLAIN)

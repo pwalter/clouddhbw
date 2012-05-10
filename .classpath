@@ -3,6 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/pascalwalter/Downloads/slf4j-1.6.4/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/Users/pascalwalter/Downloads/slf4j-1.6.4/slf4j-simple-1.6.4.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/appengine-api-1.0-sdk-1.6.4.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/appengine-api-labs-1.6.4.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/appengine-jsr107cache-1.6.4.jar"/>
@@ -25,5 +27,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/jettison-1.1.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/jsr107cache-1.1.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/pascalwalter/Documents/Git/scribe-up/target/scribe-up-1.1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
